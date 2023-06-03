@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>irisApp</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'new.css' %}">
+</head>
+<body>
+    <h1>Iris django application</h1>
+    <hr>
+
+    <form action="result">
+        sepal Lenth: <input type="float" name="sepal_lenth" required><br>
+        sepal Width: <input type="float" name="sepal_width" required><br>
+        petal Lenth: <input type="float" name="petal_lenth" required><br>
+        petal Width: <input type="float" name="petal_width" required><br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
